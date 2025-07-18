@@ -19,6 +19,7 @@ DEX 與 CEX 價差套利
 Flashloan 無風險套利
 
 策略名稱：預言機延遲套利 + 高速交易機器人
+
 ✅ 策略邏輯：
 偵測 CEX（例如 Binance）與鏈上 Oracle（如 Chainlink）的報價差異。
 
@@ -32,3 +33,11 @@ Flashloan 無風險套利
 
 
 
+✅ 延伸可做的事
+加入 Flash Loan（Aave or Uniswap v3）放大槓桿
+
+多鏈價格同步套利（Polygon/Arbitrum/BSC）
+
+AI/ML 模型預測價格波動後結合交易策略
+
+利用交易延遲 + MEV 套利空間
