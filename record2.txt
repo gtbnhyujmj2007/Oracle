@@ -9,3 +9,30 @@ CEX API（例如 Binance API）
 DEX SDK（如 Uniswap SDK）
 
 訂閱市場價格的 WebSocket（高速）
+
+
+💻 系統設計（策略模組化）
+text
+複製
+編輯
+[1] 預言機價格（oracle price） ← Pyth or Chainlink
+[2] 現價（real-time market price）← Binance/Bybit API
+[3] 價差比較（deviation）
+[4] 槓桿模擬下單
+[5] 到價止盈/止損
+
+
+📈 交易策略舉例（進階版）
+標的：WIF/USDT（高波動）
+
+槓桿：10x
+
+時間週期：10分鐘
+
+策略：
+
+當「現價」比「預言機價格」高出 >2% → 空
+
+當「現價」比「預言機價格」低於 >2% → 多
+
+設定止盈（+10%）與止損（-5%）立即下單
