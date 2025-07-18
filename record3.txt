@@ -1,0 +1,9 @@
+架構圖：
+
+📦HFT-Oralce-Arbitrage-Bot
+├── main.py                # 主程式，控制交易策略流程
+├── config.py              # API 金鑰與設定
+├── oracle_fetcher.py      # 從 Chainlink 拉價格
+├── binance_fetcher.py     # 從 Binance 拉價格
+├── trade_executor.py      # 撮合下單模組
+├── logger.py              # 紀錄模組
