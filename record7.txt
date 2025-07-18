@@ -1,0 +1,9 @@
+📡 可用預言機（Oracle）
+Oracle	特點	建議使用情境
+Chainlink	最穩定、被廣泛採用、更新頻率中等	主流幣、穩定策略
+Pyth Network	更新極快（sub-second）、支援高波動幣	高頻交易、突破判斷
+Band Protocol	資源輕量、支援多鏈	非以太坊鏈使用
+API3	使用一手 API（不用 aggregator）	高準確需求者
+自建 Oracle	可用多交易所平均價	更靈活，但需維護
+
+📌 建議：Pyth + Binance API 雙價格源組合（模擬真實+鏈上狀態）
