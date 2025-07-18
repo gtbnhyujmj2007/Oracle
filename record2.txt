@@ -1,0 +1,11 @@
+三、技術實作模組（模擬）
+💡 需要的工具：
+Node.js 或 Python（推薦 Python ）
+
+Chainlink 預言機 API
+
+CEX API（例如 Binance API）
+
+DEX SDK（如 Uniswap SDK）
+
+訂閱市場價格的 WebSocket（高速）
